@@ -1,5 +1,5 @@
 body {
-    background-color: #121212;
+    background-color: #80d0a9; /* Sky green */
     color: #ffffff;
     font-family: Arial, sans-serif;
     margin: 0;
@@ -7,13 +7,13 @@ body {
 }
 
 header {
-    background-color: #1e1e1e;
+    background-color: #66b18f; /* Darker sky green */
     padding: 20px;
     text-align: center;
 }
 
 h1 {
-    color: #ffcc00;
+    color: #ffffff;
 }
 
 main {
@@ -25,8 +25,8 @@ section {
 }
 
 h2 {
-    color: #ffcc00;
-    border-bottom: 2px solid #ffcc00;
+    color: #ffffff;
+    border-bottom: 2px solid #ffffff;
     padding-bottom: 10px;
 }
 
@@ -40,14 +40,14 @@ ul {
 }
 
 li {
-    background-color: #1e1e1e;
+    background-color: #66b18f; /* Darker sky green */
     margin: 10px 0;
     padding: 10px;
     border-radius: 5px;
 }
 
 footer {
-    background-color: #1e1e1e;
+    background-color: #66b18f; /* Darker sky green */
     text-align: center;
     padding: 10px;
 }
