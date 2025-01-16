@@ -12,6 +12,10 @@ header {
     padding: 1em 0;
 }
 
+header h1 {
+    color: #ff6f61; /* Coral for a warm and inviting feel */
+}
+
 nav ul {
     list-style: none;
     padding: 0;
@@ -26,13 +30,33 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #ff6f61; /* Coral for navigation links */
     text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #ffcc00; /* Bright yellow for hover effect */
 }
 
 section {
     padding: 2em;
     text-align: center;
+}
+
+section#home {
+    background-color: #444;
+}
+
+section#about {
+    background-color: #555;
+}
+
+section#menu {
+    background-color: #666;
+}
+
+section#contact {
+    background-color: #777;
 }
 
 footer {
@@ -46,6 +70,10 @@ footer {
 
 h1, h2 {
     margin: 0.5em 0;
+}
+
+h2 {
+    color: #ffcc00; /* Bright yellow for subheadings */
 }
 
 p {
